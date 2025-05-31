@@ -1,8 +1,8 @@
-#include "characterView.h"
+#include "CharacterView.h"
+#include "Monster.h"
+#include "Player.h"
 #include "ftxui/component/component.hpp"
 #include "ftxui/component/screen_interactive.hpp"
-#include "monster.h"
-#include "player.h"
 #include <format>
 #include <iostream>
 #include <memory>

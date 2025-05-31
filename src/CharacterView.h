@@ -1,9 +1,9 @@
 #ifndef CHARACTER_VIEW_H
 #define CHARACTER_VIEW_H
 
+#include "Monster.h"
+#include "Player.h"
 #include "ftxui/component/component.hpp"
-#include "monster.h"
-#include "player.h"
 using namespace ftxui;
 
 // ---------- プレイヤー --------------

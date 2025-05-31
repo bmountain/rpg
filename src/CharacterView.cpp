@@ -1,7 +1,7 @@
-#include "characterView.h"
+#include "CharacterView.h"
+#include "Monster.h"
+#include "Player.h"
 #include "ftxui/component/component.hpp"
-#include "monster.h"
-#include "player.h"
 using namespace ftxui;
 
 ftxui::Element statusElement(const Player &player)
