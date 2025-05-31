@@ -1,5 +1,5 @@
-#ifndef CHARACTE_H
-#define CHARACTE_H
+#ifndef CHARACTER_H
+#define CHARACTER_H
 
 #include <memory>
 #include <string>
@@ -7,22 +7,22 @@
 
 class Character
 {
-  const int _hp;
-  const int _maxHp;
-  const int _mp;
-  const int _maxMp;
-  const std::string _name;
+  const int hp_;
+  const int maxHp_;
+  const int mp_;
+  const int maxMp_;
+  const std::string name_;
 
 public:
   Character(int hp, int maxHp, int mp, int maxMp, std::string name)
-      : _hp{hp}, _maxHp{maxHp}, _mp{mp}, _maxMp{maxMp}, _name{name}
+      : hp_{hp}, maxHp_{maxHp}, mp_{mp}, maxMp_{maxMp}, name_{name}
   {
   }
-  int hp() const { return _hp; }
-  int maxHp() const { return _maxHp; }
-  int mp() const { return _mp; }
-  int maxMp() const { return _maxMp; }
-  std::string name() const { return _name; }
+  int hp() const { return hp_; }
+  int maxHp() const { return maxHp_; }
+  int mp() const { return mp_; }
+  int maxMp() const { return maxMp_; }
+  std::string name() const { return name_; }
 };
 
-#endif /* CHARACTE__H_ */
+#endif /* CHARACTER_H */
