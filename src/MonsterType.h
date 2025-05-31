@@ -21,7 +21,6 @@ enum class MonsterType { SLIME };
  * @brief モンスター種別ごとのステータス
  *
  */
-static const std::map<MonsterType, MonsterStats> monster_map
-    = {{MonsterType::SLIME, {3, 3, "スライム", "／・Д・＼\n～～～～～"}}};
+extern const std::map<MonsterType, MonsterStats> monster_map;
 
 #endif /* MONSTER_TYPE_H */

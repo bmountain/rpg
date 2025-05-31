@@ -28,10 +28,6 @@ public:
  * @param monsterType
  * @return Monster
  */
-Monster getMonsterStats(MonsterType monsterType)
-{
-  auto monster_stat = monster_map.at(monsterType);
-  return Monster(monster_stat);
-}
+Monster getMonsterStats(MonsterType monsterType);
 
-#endif /* MONSTER__H_ */
+#endif /* MONSTER_H */
